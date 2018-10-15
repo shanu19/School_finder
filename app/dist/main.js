@@ -46,7 +46,7 @@ module.exports=createReactClass({
 
 
             React.createElement("form", {className: "", onSubmit: this.addSchool},
-            React.createElement("div", {className: "panel-heading"}, React.createElement("h1", null, "FIND YOUR SCHOOL")),
+            React.createElement("div", {className: "panel-heading"}, React.createElement("h1", null, "BACK TO SCHOOL")),
 
                 React.createElement("div", {className: "form-group"},
                     React.createElement("label", {className: "control-label", htmlFor: "name"}, "School Name:"),
@@ -60,7 +60,7 @@ module.exports=createReactClass({
                     React.createElement("button", {className: "btn btn-primary button", type: "submit"}, React.createElement("span", {class: "glyphicon glyphicon-plus"}), " ", React.createElement("strong", null, "Add School"))
                 )
             ),
-React.createElement("img", {src: "https://high.swampscottps.org/wp-content/uploads/sites/3/2017/08/back-to-school-gif.gif", alt: ""})
+React.createElement("img", {src: "", alt: ""})
             )
 
 
